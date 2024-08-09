@@ -52,7 +52,7 @@ Para comprobar el correcto funcionamiento del código se provee el archivo lorem
 Al ejecutar el programa ```python word_count.py lorem_ipsum.txt``` se espera el siguiente output:
 ```
 El número de caracteres distintos es: 40
-El número de palabras distintas es: 243
+El número de palabras distintas es: 241
 ```
 ## Actividad 3: Recordatorios
 El archivo ```recordatorios.py``` incluye una serie de eventos que quieren ser recordados por el usuario. Estos eventos se presentan a través del formato fecha (año-mes-día), una hora y una descripción del evento.
