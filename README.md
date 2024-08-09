@@ -40,7 +40,7 @@ with open(“texto.txt”, "r") as file:
 Donde ```texto.txt``` corresponderá a la ruta del archivo a importar. En nuestro caso, la variable texto será denominada ```archivo_texto```:
 
 ```
-#
+# Se crea la variable archivo_texto en donde alojamos el número 1 de los valores que toma el sys.argv
 archivo_texto = sys.argv[1]
 
 #Se abre archivo solicitado para utilización de texto, alojandose en una variable dicho texto
@@ -55,6 +55,26 @@ El número de caracteres distintos es: 40
 El número de palabras distintas es: 243
 ```
 ## Actividad 3: Recordatorios
+El archivo ```recordatorios.py``` incluye una serie de eventos que quieren ser recordados por el usuario. Estos eventos se presentan a través del formato fecha (año-mes-día), una hora y una descripción del evento.
+Esta actividad se compuso por cuatro momentos:
+1. Agregue un evento el 2 de Febrero de 2021 a las 6 de la mañana para
+“Empezar el Año”.
+2. Al revisar los eventos, nota un error, ya que el 15 de Julio no es feriado. Editar
+de tal manera que sea el 16 de Julio.
+3. Lamentablemente le tocará trabajar el día del trabajo. Elimine el evento del
+día del trabajo.
+4. Agregue una cena de Navidad y de Año Nuevo cuando corresponda. Ambas a
+las 22 hrs.
+Al ejecutar el programa ```python recordatorios.py``` se espera el siguiente output:
+```
+[['2021-01-01', '11:00', 'Levantarse y ejercitar'],
+['2021-01-02', '06:00', 'Empezar el año'],
+['2021-07-16', '13:00', 'No hacer nada es feriado'],
+['2021-09-18', '16:00', 'Ramadas'],
+['2021-12-24', '22:00', 'Cena de Navidad'],
+['2021-12-25', '00:00', 'Navidad'],
+['2021-12-31', '22:00', 'Cena de Año Nuevo']]
+```
 
 ## Autores y Autoras
 
